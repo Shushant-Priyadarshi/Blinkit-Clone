@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(202, 201, 200);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.login-box{
+    height:330px ;
+    width: 530px;
+    border:2px solid white;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow:1px 1px 2px 2px white;
+    
+}
+#logo-aero{
+    margin-top: 15px;
+    display: flex;
+    
+}
+#aero{
+    display: flex;
+    margin-left: 10px;
+}
+#img-logo{
+   margin-left:200px ;
+}
+
+#heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    
+    
+}
+
+#head{
+    font-size: 24px;
+    font-weight: 600;
+   
+}
+#sub-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#subhead{
+    font-size: 16px;
+    font-weight: 100;
+   
+}
+#phone{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+input{
+    margin-top: 20px;
+    height:40px ;
+    width: 290px;
+    border-radius: 10px;
+    border: 1px solid #c7c6c6;
+    
+}
+
+input:focus{
+    outline: 1px solid rgb(154, 152, 152);
+}
+input::placeholder{
+    font-weight: 600;
+   
+}
+
+#btn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    height: 50px;
+    width: 290px;
+    background-color: #0c830c;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+
+}
+
+#copyright{
+    margin-top: 30px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    color: #696969;
+}
+
+
+
+
+
+
+
+
+
+
+
+

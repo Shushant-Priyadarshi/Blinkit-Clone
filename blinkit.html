@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Everything delivered in minutes| Blinkit</title>
+    <link rel="icon" href="data:image/png;base64,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">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="BlinkIt.css">
+
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav_logo_border">
+                <a href="#" class="logo"></a>
+            </div>
+
+            <a href="#" class="nav_location">Select Location</a>
+            <div class="nav_searchbar">
+                <a href="#"  class="nav_icon" >
+                    <i class="fa-solid fa-magnifying-glass" ></i>
+                </a>
+                <div  class="nav_search">
+                    <input type="text" id="search-input" placeholder="Seach BlinkIt" >
+                </div>  
+                <a href="Login.html" class="nav_login">Login</a>
+            </div>     
+                
+
+            
+            <div   class="nav_cart">  
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    
+                </i><a href="#">My Cart</a></i>
+             
+
+            </div>
+         
+
+    </header>
+
+    <!-- HEROSECTION -->
+
+    <main>
+        <div class="herosection">
+            
+        </div>
+
+        <div class="container_mainbox">
+            <div id="main_box1" class="main_box"></div>
+            <div id="main_box2" class="main_box"></div>
+            <div id="main_box3" class="main_box"></div>
+            <div id ="main_box4" class="main_box"></div>
+            
+        </div>
+
+        <!-- Sections of Items  1-->
+
+        <div class="section1">
+            <span id="secName">Dairy, Bread & Eggs</span>
+            <a href="#"><span id="seeAll">see all</span></a>
+
+            
+
+        </div>
+
+        
+        <!-- MY ITEMBOX 1 -->
+        <div class="itemBox1">
+            <div class="myBox1">
+                <div class="imgBox" style="background-image: url(https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/12872a.jpg?ts=1700652991);"></div>
+                <p class="imgName">Amul Gold Full Cream Fresh Milk</p>
+                <p class="quantity">500 ml</p>
+                <div class="imgPrice">
+                    &#8377 33
+                    <div class="imgAdd">ADD</div>
+                </div>
+                
+            </div>
+
+            <div class="myBox1">
+                <div class="imgBox" style="background-image: url(https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/23779a.jpg?ts=1690808192);"></div>
+                <p class="imgName">Harvest Gold - White Bread</p>
+                <p class="quantity">350 g</p>
+                <div class="imgPrice">
+                    &#8377 28
+                    <div class="imgAdd">ADD</div>
+                </div>
+                
+            </div>
+
+            <div class="myBox1">
+                <div class="imgBox" style="background-image: url(https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/86446a.jpg?ts=1687948913);"></div>
+                <p class="imgName">Mother dairy Classic Curd</p>
+                <p class="quantity">400 g</p>
+                <div class="imgPrice">
+                    &#8377 34
+                    <div class="imgAdd">ADD</div>
+                </div>
+                
+            </div>
+
+            <div class="myBox1">
+                <div class="imgBox" style="background-image: url(https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/487729a.jpg?ts=1700208078);"></div>
+                <p class="imgName">Table White Eggs (6 pieces)</p>
+                <p class="quantity">6 pieces</p>
+                <div class="imgPrice">
+                    &#8377 61
+                    <div class="imgAdd">ADD</div>
+                </div>
+                
+            </div>
+
+
+            <div class="myBox1">
+                <div class="imgBox" style="background-image: url(https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/160a.jpg?ts=1689327537);"></div>
+                <p class="imgName">Amul Salted Butter</p>
+                <p class="quantity">500 g</p>
+                <div class="imgPrice">
+                    &#8377 285
+                    <div class="imgAdd">ADD</div>
+                </div>
+                
+            </div>
+
+            <div class="myBox1">
+                <div class="imgBox" style="background-image: url(https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/168a.jpg?ts=1689327537);"></div>
+                <p class="imgName">Amul Pure Milk cheese Slices</p>
+                <p class="quantity">200 g</p>
+                <div class="imgPrice">
+                    &#8377 140
+                    <div class="imgAdd">ADD</div>
+                </div>
+                
+            </div>
+
+                
+
+           
+
+        
+ 
+
+        </div>
+
+        <!-- Sections of Items 2-->
+        
+        <div class="section1">
+            <span id="secName">Snacks & Munchies</span>
+            <a href="#"><span id="seeAll">see all</span></a>
+
+            
+
+        </div>
+
+        
+        <!-- MY ITEMBOX 2 -->
+        <div class="itemBox1">
+            <div class="myBox1">
+                <div class="imgBox" style="background-image: url(https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/15558a.jpg?ts=1690814371);"></div>
+                <p class="imgName">Lijjat Moong Papad</p>
+                <p class="quantity">200 g</p>
+                <div class="imgPrice">
+                    &#8377 77
+                    <div class="imgAdd">ADD</div>
+                </div>
+                
+            </div>
+
+            <div class="myBox1">
+                <div class="imgBox" style="background-image: url(https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/605a.jpg?ts=1689327547);"></div>
+                <p class="imgName">Haldiram's Classic Salted Peanut Namkeen</p>
+                <p class="quantity">200 g</p>
+                <div class="imgPrice">
+                    &#8377 54
+                    <div class="imgAdd">ADD</div>
+                </div>
+                
+            </div>
+
+            <div class="myBox1">
+                <div class="imgBox" style="background-image: url(https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/19251a.jpg?ts=1687948393);"></div>
+                <p class="imgName">Haldiram's Lite Mixture Namkeen</p>
+                <p class="quantity">150 g</p>
+                <div class="imgPrice">
+                    &#8377 35
+                    <div class="imgAdd">ADD</div>
+                </div>
+                
+            </div>
+
+            <div class="myBox1">
+                <div class="imgBox" style="background-image: url(https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/240092a.jpg?ts=1687324818);"></div>
+                <p class="imgName">Lay's India's Magic Masala Chips (40 g)</p>
+                <p class="quantity">40 g</p>
+                <div class="imgPrice">
+                    &#8377 20
+                    <div class="imgAdd">ADD</div>
+                </div>
+                
+            </div>
+
+
+            <div class="myBox1">
+                <div class="imgBox" style="background-image: url(https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/432818a.jpg?ts=1688444559);"></div>
+                <p class="imgName">Doritos Cheese Nachos</p>
+                <p class="quantity">60 g</p>
+                <div class="imgPrice">
+                    &#8377 30
+                    <div class="imgAdd">ADD</div>
+                </div>
+                
+            </div>
+            <div class="myBox1">
+                <div class="imgBox" style="background-image: url(https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/67372a.jpg?ts=1697561896);"></div>
+                <p class="imgName">Kurkue Masala Munch Crisps</p>
+                <p class="quantity">77 g</p>
+                <div class="imgPrice">
+                    &#8377 20
+                    <div class="imgAdd">ADD</div>
+                </div>
+                
+            </div>
+
+                
+
+           
+
+        
+ 
+
+        </div>
+        
+
+        
+        <!-- Sections of Items 3-->
+        
+        <div class="section1">
+            <span id="secName">Cold Drinks & Juices</span>
+            <a href="#"><span id="seeAll">see all</span></a>
+
+            
+
+        </div>
+
+        
+        <!-- MY ITEMBOX 3 -->
+        <div class="itemBox1">
+            <div class="myBox1">
+                <div class="imgBox" style="background-image: url(https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/455587a.jpg?ts=1690985838);"></div>
+                <p class="imgName">Real Fruit Power Coconut Water</p>
+                <p class="quantity">1 L</p>
+                <div class="imgPrice">
+                    &#8377 91
+                    <div class="imgAdd">ADD</div>
+                </div>
+                
+            </div>
+
+            <div class="myBox1">
+                <div class="imgBox" style="background-image: url(https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/20143a.jpg?ts=1687525090);"></div>
+                <p class="imgName">Real Fruit Power Cranberry Juice</p>
+                <p class="quantity">1 L</p>
+                <div class="imgPrice">
+                    &#8377 120
+                    <div class="imgAdd">ADD</div>
+                </div>
+                
+            </div>
+
+            <div class="myBox1">
+                <div class="imgBox" style="background-image: url(https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/69250a.jpg?ts=1679035809);"></div>
+                <p class="imgName">Real Activ 100% Orange Juice</p>
+                <p class="quantity">1 L</p>
+                <div class="imgPrice">
+                    &#8377 135
+                    <div class="imgAdd">ADD</div>
+                </div>
+                
+            </div>
+
+            <div class="myBox1">
+                <div class="imgBox" style="background-image: url(https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/385a.jpg?ts=1689327544);"></div>
+                <p class="imgName">Red Bull Energy Drink (250 ml)</p>
+                <p class="quantity">250 ml</p>
+                <div class="imgPrice">
+                    &#8377 125
+                    <div class="imgAdd">ADD</div>
+                </div>
+                
+            </div>
+
+
+            <div class="myBox1">
+                <div class="imgBox" style="background-image: url(https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/34353a.jpg?ts=1690814578);"></div>
+                <p class="imgName">Bisleri Packaged Water</p>
+                <p class="quantity">5 L</p>
+                <div class="imgPrice">
+                    &#8377 70
+                    <div class="imgAdd">ADD</div>
+                </div>
+                
+            </div>
+
+            <div class="myBox1">
+                <div class="imgBox" style="background-image: url(https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/images/products/sliding_image/283a.jpg?ts=1689327540);"></div>
+                <p class="imgName">Coca-Cola Soft Drink (750 ml)</p>
+                <p class="quantity">750 ml</p>
+                <div class="imgPrice">
+                    &#8377 40
+                    <div class="imgAdd">ADD</div>
+                </div>
+                
+            </div>
+
+                
+
+           
+
+        
+ 
+
+        </div>
+        
+
+
+        
+        
+     
+
+
+    </main>
+
+
+
+    <footer>
+        <div class="footers">
+
+
+            <div class="footer_1">
+                <p id="fPara_1">Useful Links</p>
+                <p id="fPara_2">Categories <a id="aOFP" href="#">&nbsp&nbspsee all</a></p>
+                 
+            </div>
+
+            <div class="footer_2">
+                <ul>
+                    <a href="#">About</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Press</a>
+                    <a href="#">Lead</a>
+                    <a href="#">Value</a>
+
+                </ul>
+
+                <ul>
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">FAQs</a>
+                    <a href="#">Security</a>
+                    <a href="#">Mobile</a>
+                    <a href="#">Contact</a>
+
+                </ul>
+
+                <ul>
+                    <a href="#">Partner</a>
+                    <a href="#">Express</a>
+                    <a href="#">Seller</a>
+                    <a href="#">Spotlight</a>
+                    <a href="#">Warehouse</a>
+                    <a href="#">Deliver</a>
+
+                </ul>
+
+                <ul>
+                    <a href="#">Vegetables & Fruits</a>
+                    <a href="#">Cold Drinks & Juices</a>
+                    <a href="#">Bakery & Biscuits</a>
+                    <a href="#">Dry Fruits, Masala & Oil</a>
+                    <a href="#">Paan Corner</a>
+                    <a href="#">Pharma & Wellness</a>
+                    <a href="#">Personal Care</a>
+                    <a href="#">Beauty & Cosmetics</a>
+                    <a href="#">Toys & Games</a>
+
+
+                </ul>
+
+
+                <ul>
+                    <a href="#">Dairy & Breakfast</a>
+                    <a href="#">Instant & Frozen Food</a>
+                    <a href="#">Sweet Tooth</a>
+                    <a href="#">Sauces & Spreads</a>
+                    <a href="#">Organic & Premium</a>
+                    <a href="#">Cleaning Essentials</a>
+                    <a href="#">Ice Creams & Frozen Desserts</a>
+                    <a href="#">Magazines</a>
+                    <a href="#">Trial new tree</a>
+
+                </ul>
+
+
+                <ul>
+                    <a href="#">Munchies</a>
+                    <a href="#">Tea, Coffee & Health Drinks</a>
+                    <a href="#">Atta, Rice & Dal</a>
+                    <a href="#">Chicken, Meat & Fish</a>
+                    <a href="#">Baby Care</a>
+                    <a href="#">Home & Office</a>
+                    <a href="#">Pet Care</a>
+                    <a href="#">Books</a>
+                    <a href="#">Print Store</a>
+
+                </ul>
+
+                
+                
+            </div>
+
+            <div class="lastFoot">
+                <div class="footer_3">
+                    <div class="Fcopy">© Blink Commerce Private Limited (formerly known as Grofers India <br>Private Limited), 2016-2023</div>
+                    <div class="fdown">Download App&nbsp&nbsp&nbsp&nbsp
+                        <a href="#"><i class="fa-brands fa-app-store-ios">&nbsp&nbsp&nbsp</i></a>
+                        <a href="#"><i class="fa-brands fa-google-play"></i></a>
+                    </div>
+                    <div class="socailMEd">
+                        <a href="#"><i class="fa-brands fa-facebook">&nbsp&nbsp</i></a>
+                        <a href="#"><i class="fa-brands fa-twitter">&nbsp&nbsp</i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram">&nbsp&nbsp</i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin">&nbsp&nbsp</i></a>
+                        <a href="#"><i class="fa-brands fa-square-threads"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            
+
+            <div class="footer_4">
+                <div class="last">
+                    <p>“Blinkit” is owned & managed by "Blink Commerce Private Limited" (formerly known as Grofers India Private Limited) and is not related, linked or interconnected in whatsoever manner or nature, to “GROFFR.COM” which is a real estate services business operated by “Redstone Consultancy Services Private Limited”.</p>
+
+                </div>
+                
+            </div>
+
+        </div>
+    </footer>
+
+
+<script src="blinkit.js"></script> 
+</body>
+</html>
