@@ -1,3 +1,6 @@
+html{
+    font-size: 62.5%;
+}
 *{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -7,37 +10,37 @@
 
 
 .navbar{
-    height: 90px;
+    height: 9rem;
     background-color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: 0.125px dotted rgb(107, 105, 105);
+    border: 0.0125rem dotted rgb(107, 105, 105);
 
 }
 
 .nav_logo_border{
     display: flex;
     align-items: center;
-    height: 90px;
-    width: 180px;
-    border-right:0.125px dotted rgb(107, 105, 105) ;
+    height: 9rem;
+    width: 18rem;
+    border-right:0.0125rem dotted rgb(107, 105, 105) ;
 }
 
 .logo{
-    height: 45px;
-    width: 140px;
+    height: 4.5rem;
+    width: 14rem;
     background-image: url(blinkit_logo.png);
     background-size: cover;
     
-    align-self: 20px;
+    align-self: 2rem;
 }
 
 .nav_location{
     text-decoration: none;
     font-family: Helvetica, sans-serif;
-    font-size: 18px;
-    /* margin-left: 10px; */
+    font-size: 1.8rem;
+    
    
 
 
@@ -48,22 +51,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 650px;
+    width: 65rem;
 
    
 }
 
 .nav_search{
-    width: 650px;
-    height: 50px;
+    width: 65rem;
+    height: 5rem;
     
-    /* border-bottom: 0.5px solid black;
-    border-right: 0.5px solid black;
-    border-top: 0.5px solid black; */
+
 
     
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
     background-color: #f8f8f8;
     display: flex;
     align-items: center;
@@ -74,21 +75,19 @@
 
 
 .nav_icon{
-    /* border-bottom: 0.5px solid black;
-    border-left: 0.5px solid black;
-    border-top: 0.5px solid black; */
+
     text-decoration: none;
-    height: 50px;
-    width: 60px;
+    height: 5rem;
+    width: 6rem;
     display: flex;
     justify-content: center;
     align-items: center ;
     background-color: #f8f8f8;
     
-    border-top-left-radius: 10px;
+    border-top-left-radius: 1rem;
     
-    border-bottom-left-radius: 10px;
-    font-size: 20px;
+    border-bottom-left-radius: 1rem;
+    font-size: 2rem;
     
     
 }
@@ -97,7 +96,7 @@
     border: none;
     outline: none; 
     background-color: #f8f8f8;
-    font-size: 15px;
+    font-size: 1.5rem;
     transition: color 0.5s;
 }
 
@@ -112,35 +111,35 @@
 
 .nav_login{
     text-decoration: none;
-    font-size: 18px;
-    margin-left: 40px;
+    font-size: 1.8rem;
+    margin-left: 4rem;
     
    
 }
 
 .nav_cart{
     text-decoration: none;
-    height: 55px;
-    width: 120px;
+    height: 5.5rem;
+    width: 12rem;
     
     background-color: #0c8310;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
-    margin-right: 20px;
+    border-radius: 1rem;
+    margin-right: 2rem;
     
 } 
 
 .nav_cart i{
-    font-size: 30px;
+    font-size: 3rem;
     color: white;
-    margin-right: 5px;
+    margin-right: .5rem;
 }
 .nav_cart a{
         text-decoration: none;
-        font-size: 16px;
+        font-size: 1.6rem;
         color: white;
         font-weight: 700;
 }
@@ -150,12 +149,12 @@
 .herosection{
     
     background-image: url(heroSection.webp);
-    height: 240px;
-    width: 1300px ;
+    height: 24rem;
+    width: 130rem ;
     display: flex;
     justify-content: center;
     background-size: cover;
-    margin-left: 110px;
+    margin-left: 11rem;
 }
 
 .container_mainbox{
@@ -164,12 +163,12 @@
 }   
 
 .main_box{
-    width: 340px;
-    height: 200px;
-    /* border:2px solid black; */
+    width: 34rem;
+    height: 20rem;
+  
     display: inline-block;
-    margin: 10px;
-    border-radius: 10px;
+    margin: 1rem;
+    border-radius: 1rem;
    
     
 }
@@ -191,33 +190,33 @@
  
     background-image: url(https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/layout-engine/2023-03/babycare-WEB.jpg);
     background-size: cover;
-    width: 200px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
+    width: 20rem;
+    border-top-right-radius: 0rem;
+    border-bottom-right-radius: 0rem;
 }
 
 
 /* Sections */
 
 .section1{
-    height: 65px;
-    width: 1295px;
-    /* border: 2px solid black; */
+    height: 6.5rem;
+    width: 129.5rem;
+
     position: absolute;
     left: 8%;
-    margin-top: 30px;
+    margin-top: 3rem;
 }
 
 #secName{
     font-weight: 600;
-    font-size: 24px;
+    font-size: 2.4rem;
     color: rgb(28,28,28);
 }
 
 #seeAll{
     text-decoration: none;
     color: rgb(12,131,31);
-    font-size: 20px;
+    font-size: 2rem;
     position: absolute;
     right: 1%;
 
@@ -226,14 +225,14 @@
 /* ITEMBOXES */
 
 .itemBox1{
-    height:300px ;
-    width: 1295px;
+    height:30rem ;
+    width: 129.5rem;
     /* border: 2px solid black; */
-    margin-top: 40px;
+    margin-top: 4rem;
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
-    margin-left: 100px;
+    margin-top: 10rem;
+    margin-left: 10rem;
     
     
     
@@ -241,11 +240,11 @@
 }
 
 .myBox1{
-    height: 290px;
-    width: 180px;
-    border:0.5px solid rgb(232,232 ,232);
-    border-radius: 8px;
-    box-shadow: rgba(0,0,0,0.04) 2px 2px 8px;
+    height: 29rem;
+    width: 18rem;
+    border:0.05rem solid rgb(232,232 ,232);
+    border-radius: .8rem;
+    box-shadow: rgba(0,0,0,0.04) .2rem .2rem .8rem;
     background: rgb(255, 255, 255);
     
    
@@ -253,42 +252,42 @@
 }
 
 .imgBox{
-    height: 140px;
-    width: 140px;
+    height: 14rem;
+    width: 14rem;
     /* position: absolute; */
-    margin-left: 20px;
-    margin-top:10px;
+    margin-left: 2rem;
+    margin-top:1rem;
     background-size: cover;
 }
 
 .imgName{
-    font-size: 13px;
+    font-size: 1.3rem;
     /* position: absolute; */
-    margin-left: 10px; 
-    margin-top:10px;
-    height: 40px;
-    width: 155px;
+    margin-left: 1rem; 
+    margin-top:1rem;
+    height: 4rem;
+    width: 15.5rem;
     font-weight: 600;
 }
 
 .quantity{
-    height: 30px;
-    width: 155px;
+    height: 3rem;
+    width: 15.5rem;
     /* position: absolute; */
-    margin-top:10px;
-    margin-left: 10px; 
-    font-size: 13px;
+    margin-top:1rem;
+    margin-left: 1rem; 
+    font-size: 1.3rem;
     color: #666666;
 
 }
 
 .imgPrice{
-    height: 30px;
-    width: 155px;
+    height: 3rem;
+    width: 15.5rem;
     /* position: absolute; */
-    margin-top:8px;
-    margin-left: 10px; 
-    font-size: 13px;
+    margin-top:.8rem;
+    margin-left: 1rem; 
+    font-size: 1.3rem;
     font-weight: 600;
     display: flex;
     justify-content: space-between;
@@ -297,10 +296,10 @@
 }
 
 .imgAdd{
-    height: 30px;
-    width: 70px;
-    border:1px solid rgb(49, 134, 22);
-    font-size: 13px;
+    height: 3rem;
+    width: 7rem;
+    border:.1rem solid rgb(49, 134, 22);
+    font-size: 1.3rem;
     font-weight: 600;
     display: flex;
     justify-content: center;
@@ -316,7 +315,7 @@
 .footer_1 p{
     
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.8rem;
     
 }
 
@@ -337,30 +336,30 @@
 #aOFP{
     text-decoration: none;
     color: rgb(12,131,31);
-    font-size: 15px;
+    font-size: 1.5rem;
 
 }
 
 .footers{
-    margin-top: 70px;
+    margin-top: 7rem;
 }
 
 .footer_2 a{
     text-decoration: none;
     color: #666666;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 .footer_2 {
-    margin-top: 20px;
-    height: 350px;
+    margin-top: 2rem;
+    height: 35rem;
     display: flex;
     
 }
 
 ul a{
     display: block;
-    margin-top: 15px;
-    margin-left: 50px;
+    margin-top: 1.5rem;
+    margin-left: 5rem;
 }
 
 .lastFoot{
@@ -371,20 +370,20 @@ ul a{
 .footer_3{
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: 8rem;
     align-items: center;
     background-color: #f3f3f3;
-    width: 1300px;
+    width: 130rem;
 }
 
 .Fcopy{
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #666666;
-    margin-left: 50px;
+    margin-left: 5rem;
 }
 
 .fdown{
-    font-size: 14px;
+    font-size: 1.4rem;
     color:#666666;
     font-weight: 600;
     width: 30vw;
@@ -392,27 +391,27 @@ ul a{
     align-items: center;
 }
 .fdown i{
-    font-size: 40px;
+    font-size: 4rem;
 }
 
 .socailMEd{
     width: 20vw;
 }
 .socailMEd i{
-    font-size: 40px;
+    font-size: 4rem;
 }
 
 .footer_4{
-    margin-top: 20px;
-    height: 40px;
+    margin-top: 2rem;
+    height: 4rem;
     display: flex;
     justify-content: center;
     color: #666666;
 }
 
 .last{
-    width: 1300px;
-    font-size: 14px;
+    width: 130rem;
+    font-size: 1.4rem;
     color: #666666;
     
 
