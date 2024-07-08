@@ -30,7 +30,7 @@ html{
 .logo{
     height: 4.5rem;
     width: 14rem;
-    background-image: url(blinkit_logo.png);
+    background-image: url(../../public/blinkit_logo.png);
     background-size: cover;
     
     align-self: 2rem;
@@ -148,7 +148,7 @@ html{
 
 .herosection{
     
-    background-image: url(heroSection.webp);
+    background-image: url(../../public/heroSection.webp);
     height: 24rem;
     width: 130rem ;
     display: flex;
